@@ -32,7 +32,6 @@ def process_json_response(response):
     try:
         data = json.loads(response)
     except json.JSONDecodeError:
-        print("修复 JSON 格式问题")
         response = response.replace("internal", '"internal"')
         response = response.replace("external", '"external"')
         try:
