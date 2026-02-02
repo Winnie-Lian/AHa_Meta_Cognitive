@@ -40,3 +40,6 @@ Chain-of-Thought (CoT) editing scripts are in `3_exp_cot_editing/`
 
 ## Data
 Click [here](https://drive.google.com/file/d/1KZDBerCz05VKk-_q1r4mbvL5qnughgtG/view?usp=drive_link) to get datset.
+
+## Referenced repository
+Qwen2.5-VL：https://github.com/butemp/online_code
