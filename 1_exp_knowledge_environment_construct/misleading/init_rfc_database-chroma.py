@@ -5,6 +5,8 @@ import chromadb
 import torch
 import os
 
+
+
 # 检测GPU可用性
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
